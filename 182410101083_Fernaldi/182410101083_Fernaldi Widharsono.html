@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>tugas p.web</title>
+	<link rel="stylesheet" href="form.css">
+	</head>
+<body>
+
+<div class="judul">
+
+<h1>Tugas Praktikum Perancangan Web</h1>
+<h2>Fernaldi Widharsono
+(182410101083)</h2>
+
+</div>
+
+<div class="registrasi">
+
+	<form>
+	<h2>REGISTER</h2>
+		<label>NAMA:</label>
+		<input placeholder="Masukkan Nama" type="text"><br>
+		
+		<label>NIM:</label>
+		<input Placeholder="Masukkan Nim" type="number"><br>
+		
+		<label>Password:</label>
+		<input placeholder="Masukkan Password" type="password"><br>
+		
+		<label>TTL:</label>
+		<input placeholder="Masukkan TTL" type="date"><br>
+		
+		<label>Email:</label>
+		<input placeholder="Masukkan Email" type="email"><br><br>
+		
+		<label>Jenis Kelamin</label><br>
+		<input type="radio" name="gender" value="laki-laki">laki-laki<br>
+		<input type="radio" name="gender" value="perempuan">perempuan<br><br>
+		
+		<label style="font-size:15px">Hobi</label><br>
+		<input type="checkbox" name="hobi1" value="membaca buku">membaca buku<br>
+		<input type="checkbox" name="hobi2" value="nolep">nolep<br>
+		<input type="checkbox" name="hobi3" value="senja dan secangkir kopi">senja dan secangkir kopi<br><br>
+		
+		<label style="font-size:15px">Fakultas:</label>
+		<input list="Fakultas" name="fakultas" size="35">
+		<datalist id="Fakultas">
+			<option disabled value="Pilih asal Fakultas">
+			<option value="Fakultas Ilmu Budaya">
+			<option value="Fakultas Kedokteran">
+			<option value="Fakultas Ilmu Komputer">
+			<option value="Fakultas Keguruan dan Ilmu Pendidikan">
+			</datalist><br>
+		
+		<label>Jabatan:</label>
+		<select name="jabatan">
+			<option disabled>--Pilih jabatan--</option>
+			<option value='Dosen'>Dosen</option>
+			<option value='Mahasiswa' selected>Mahasiswa</option>
+			<option value='Karyawan'>Karyawan</option>
+		</select><br><br></form>
+		<button type="button" onclick="alert('TERIMAKASIH')">Submit</button>
+		</div>
+		
+<div class="login">
+
+	<form>
+		<h1>LOGIN</h1>
+		<input placeholder="Masukkan Nama" type="text"><br>
+		<input placeholder="Masukkan Password" type="password"><br></form>
+		<button type="button" onclick="alert('TERIMAKASIH')">Submit</button>
+		</div>
+		
+		
+</body>
+</html>
