@@ -5,20 +5,14 @@
 	color:white;
 }
 .kaki{
+	background-color:black;
 	height:15px;
 	padding:5px;
-	
-	width:100%;
-	
-	
-}
-.kaki a{	
-	background-color:black;
-	color:white;
-	text-decoration:none;
-	overflow:hidden;
 	opacity:.5;
 }
+.kaki a{
+	color:white;
+	text-decoration:none;
 
 .videobg{
 	position: relative;
