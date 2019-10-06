@@ -1,5 +1,9 @@
 <style>
-
+.body{
+	background-color:black;
+	font-family:Arial;
+	color:white;
+}
 .kaki{
 	height:15px;
 	padding:5px;
