@@ -83,7 +83,7 @@ ul li a{
 }
 
 .posisi h4{
-	width:3%;
+	width:20%;
 	height: 2%;
 	background-color:#FFCC00;
 	padding:3px;
@@ -115,4 +115,22 @@ ul li a{
 .keterangankonten {
 	padding: 20px;
 	text-align: center;
+}
+.gambar artikel kiri{
+	float:left; 
+	margin:0 9px 3px 0;
+	width:50%
+}
+.tulisanartikel{
+	text-align:justify;
+	position: relative;
+	px;
+
+	
+	
+}
+.judulkonten2 {
+	text-size:50px;
+	width:100%;
+	padding: 0px 1200;
 }
