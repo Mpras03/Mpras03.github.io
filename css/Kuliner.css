@@ -114,13 +114,14 @@ ul li a{
 
 .keterangankonten {
 	padding: 20px;
-	text-align: center;
+    text-align: center;
+    width: 20%;
 }
 
 .judulkonten2 {
 	font-size:30px;
 	width:100%;
-	padding: 0 65% 0;
+	padding: 0 60% 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
