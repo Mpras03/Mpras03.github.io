@@ -1,0 +1,124 @@
+
+.header-container{
+    overflow:hidden;
+    position: relative;
+    padding-right:27px;
+    margin-left:25px;
+    height:27vh;
+}
+.judul h1{
+	float:left;
+	width:75%;
+	margin-top:40px;
+	font-size:3rem;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.judul img{
+	float:left;
+	border-radius:400px;
+    margin:20px;
+}
+.navigasi{
+	box-shadow: 1px 10px 20px #aaaaaa;
+	background-color:blue;
+	width:auto;
+	height:40px;
+	padding:0px;
+	margin-top:128px;
+	opacity:.8;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+ ul li{
+	background-color:blue;
+	float:left;
+	width:200px;
+	height:40px;
+	line-height: 40px;
+	text-align:center;
+	font-size:20px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+ ul li a:hover{
+	background-color:green;
+}
+ ul li ul li{
+	display:none;
+}
+ ul li:hover ul li{
+	opacity:.8;
+	display:block;
+}
+.daftar{
+    width: 30%;
+    height: 480px;
+    float:left;
+    margin-left: 15%;
+}
+input[type=text],input[type=password],input[type=date],input[type=date],input[type=email]{
+    width:100%;
+    height:30px;
+    background-color: azure;
+    margin:20px;
+    border-bottom: 2px solid blue;
+}
+label{
+    font-weight: bold;
+}
+.login{
+    width: 25%;
+    height: 300px;
+    margin-left:100px;
+    float:left;
+}
+.login,.daftar{
+    background:linear-gradient(to right,aqua,lightgreen);
+    border-radius:10px;
+    padding:50px;
+    box-shadow: 2px 20px 30px #aaaaaa;
+}
+input[type=submit]{
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 200px;
+    height: 40px;
+    border:none;
+    outline:none;
+    background:blue;
+    color:#fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+input[type=submit]:hover{
+background:linear-gradient(to right,greenyellow,green);
+cursor: pointer;
+color:black;
+}
+h2{
+    text-align: center;
+    margin-top:-20px;
+}
+.kaki{
+	position: absolute;
+	width: 100%;
+	top:96.2%;
+	background-color:black;
+	height:15px;
+	padding:5px;
+}
+.kaki a{
+	color:white;
+    text-decoration:none;
+}

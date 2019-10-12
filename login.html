@@ -1,0 +1,93 @@
+<html>
+<head>
+        <title>PANTAI PARADISE</title>
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="shortcut icon" type="image/png" href="https://img.lovepik.com/element/40129/9663.png_860.png">
+        <script type="text/javascript">
+        function validasi(){
+            var username = document.getElementById("nama");
+            var password = document.getElementById("pw");
+            var email    = document.getElementById("email");
+            var ttl      = document.getElementById("ttl");
+
+            if(username.value==""||password.value==""||email.value==""||ttl.value==""){
+                alert("Inputan pada DAFTAR tidak boleh kosong!");
+                return false;
+            }
+            else{
+                true;
+
+            }
+
+        }
+        function validasilogin(){
+            var username    = document.getElementById("usernamelogin");
+            var password    = document.getElementById("pwlogin");
+
+            if(usernamelogin.value==""||password.value==""){
+                alert("Inputan pada LOGIN tidak boleh kosong!");
+                return false;
+            }
+            else{
+                true;
+            }
+        }
+        </script>
+</head>
+<body>
+    <div class="header-container">
+        <div class="judul">
+                <a href="index.html"><img src="https://img.lovepik.com/element/40129/9663.png_860.png" width="80" height="80" alt="PANTAI PARADISE" href="index.html"></a>
+                <h1>PANTAI PARADISE</h1>
+        </div>
+            <div class="navigasi">
+                <ul>
+                <li><a href="Page Home.html">HOME</a></li>
+                <li><a href="#">OBJEK WISATA</a>
+                    <ul>
+                    <li><a href="Page Pantai Papuma1.html">PANTAI PAPUMA</a></li>
+                    <li><a href="#">PANTAI PAYANGAN</a></li>
+                    <li><a href="#">PANTAI PUGER</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">KULINER</a>
+                    <ul>
+                    <li><a href="#">PANTAI PAPUMA</a></li>
+                    <li><a href="#">PANTAI PAYANGAN</a></li>
+                    <li><a href="#">PANTAI PUGER</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+    </div>
+    <div class="daftar">
+        <form onsubmit="return validasi()" action="index.html">
+            <h2>DAFTAR</h2>
+                <label>NAMA:</label>
+                <input id="nama" placeholder="Masukkan Nama" type="text"><br>
+                <label>PASSWORD:</label>
+                <input id="pw" placeholder="Masukkan password" type="password"><br>
+                <label>EMAIL:</label>
+                <input id="email" placeholder="Masukkan email" type="email"><br>
+                <label>TTL:</label>
+                <input id="ttl" placeholder="Masukkan TTL" type="date"><br>
+                <input type="submit" name="" value="DAFTAR">
+        </form>
+    </div>
+    <div class="login">
+        <form onsubmit="return validasilogin()" action="Page Home.html">   
+            <h2>LOGIN</h2>
+                <label>NAMA:</label>
+                <input id="usernamelogin" placeholder="Masukkan Nama" type="text"><br>
+                <label>PASSWORD:</label>
+                <input id="pwlogin" placeholder="Masukkan password" type="password"><br>
+                <input type="submit" name="" value="LOGIN">
+        </form>
+    </div>
+    <div class="kaki"><center>
+            <a href="#">Privacy Policy | </a>
+            <a href="#">About | </a>
+            <a>Powered By Fernaldi and Pras</a>
+            </center>
+        </div>            
+</body>
