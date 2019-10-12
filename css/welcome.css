@@ -4,6 +4,9 @@ body{
 	color:white;
 }
 .kaki{
+	position: absolute;
+	width: 100%;
+	top:96.2%;
 	background-color:black;
 	height:15px;
 	padding:5px;
@@ -27,9 +30,14 @@ body{
 .videobg h2{
 	text-align:center;
 	font-size:5rem;
+	position: absolute;
+	top: 55%;
+	left:50%;
+	margin-right: -50%;
+	margin:0px;
 	padding:0px;
-	margin:186px;
 	opacity:.7;
+	transform: translate(-50%, -50%)
 }
 video{
 	position: absolute;
