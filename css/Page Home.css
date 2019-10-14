@@ -23,7 +23,7 @@
 }
 .header-container{
 	position: relative;
-	height:155vh;
+	height:auto;
 	overflow: hidden;
 	padding-right:27px;
 	margin-left:25px;
@@ -126,6 +126,7 @@ ul li a{
 .keterangankonten {
 	padding: 20px;
 	text-align: center;
+	margin-block-end: 3em;
 }
 
 @media only screen and (max-width: 480px) {
