@@ -4,7 +4,7 @@
     position: relative;
     padding-right:27px;
     margin-left:25px;
-    height:38%;
+    height:42%;
 }
 .judul h1{
 	float:left;
@@ -88,7 +88,7 @@ label{
     background:linear-gradient(to right,aqua,lightgreen);
     border-radius:10px;
     padding:50px;
-    box-shadow: 2px 20px 30px #aaaaaa;
+	box-shadow: 2px 20px 30px #aaaaaa;
 }
 input[type=submit]{
     margin-left: 30%;
@@ -118,6 +118,7 @@ h2{
 	background-color:black;
 	height:15px;
 	padding:5px;
+	margin-block-start: 5em;
 }
 .kaki a{
 	color:white;
