@@ -111,8 +111,9 @@ ul li a{
 	float: left;
  	width: 40%;
 	padding: ;
-	border-radius: 20%;
+	border-radius: 50px;
 	box-shadow: 1px 10px 20px #aaaaaa;
+	margin-inline-end: 1em;
 }
 .kolomtulisan {
  	width:100%;
@@ -140,8 +141,9 @@ p{
 	float: right;
  	width: 40%;
 	padding:;
-	border-radius: 20%;
+	border-radius: 50px;
 	box-shadow: 1px 10px 20px #aaaaaa;
+	margin-inline-start: 1em;
 }
 
 hr {
