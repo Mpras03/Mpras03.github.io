@@ -1,6 +1,6 @@
 .videobg{
 	position: relative;
-	height:155vh;
+	height:210vh;
 	overflow: hidden;
 	padding-right:27px;
 	margin-left:25px;
@@ -114,16 +114,26 @@ ul li a{
 .kolomgambarkiri img{
 	float: left;
  	width: 40%;
-	padding: 15px;
-	border-radius: 20%;
+	border-radius: 50px;
+	box-shadow: 1px 10px 20px #aaaaaa;
+	margin-inline-end: 1em;
 }
 .kolomtulisan {
  	width:100%;
 	padding: 15px;
+	
+	
+}
+p{
+	text-indent: 50px;
 	text-align: justify;
 	font-size: 20px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
 }
-
 
 .baris {
 	content: "";
@@ -133,8 +143,112 @@ ul li a{
 .kolomgambarkanan img{
 	float: right;
  	width: 40%;
-	padding: 15px;
-	border-radius: 20%;
+	border-radius: 50px;
+	box-shadow: 1px 10px 20px #aaaaaa;
+	margin-inline-start: 1em;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.textarea {
+    width: 98%;
+    height: 150px;
+}
+.button1 {
+    background: linear-gradient(to right, #3333EE,green);
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.comment img {
+    float: left;
+    width: 75px;
+    height: 100px;
+    margin-right: 10px;
+}
+.row img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px 10px;
+}
+.comment {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 10px 0 10px 0;
+    background: rgba(1,1,1,0.05);
+    border-radius: 5px;
+}
+div {
+    display: block;
+}
+.row {
+    background: rgba(1,1,1,0.05);
+    margin: 10px;
+    border-radius: 10px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.row p, h5 {
+    padding-top: 10px;
+    margin: 0;
+}
+.comment p {
+    text-indent: 0;
+    padding-left: 90px;
+    padding-right: 10px;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 .kaki{
 	position: absolute;
