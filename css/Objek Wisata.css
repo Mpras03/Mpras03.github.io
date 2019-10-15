@@ -107,16 +107,13 @@ ul li a{
 
 .kolomgambarkiri img{
 	float: left;
- 	width: 40%;
+ 	width: 600px;
 	border-radius: 50px;
 	box-shadow: 1px 10px 20px #aaaaaa;
 	margin-inline-end: 1em;
 }
 .kolomtulisan {
  	width:100%;
-	padding: 15px;
-	
-	
 }
 p{
 	text-indent: 50px;
@@ -136,7 +133,7 @@ p{
 }
 .kolomgambarkanan img{
 	float: right;
- 	width: 40%;
+ 	width: 600px;
 	border-radius: 50px;
 	box-shadow: 1px 10px 20px #aaaaaa;
 	margin-inline-start: 1em;
@@ -260,7 +257,7 @@ h5 {
 	text-decoration:none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 	.judul h1{
 		font-size: 2rem;
 	}
@@ -289,8 +286,25 @@ h5 {
 		padding: 0 30% 0;
 		font-size: 25px;
 	}
-	.kolomgambarkiri {
-		width: 100%;
-		
+	.kolomgambarkiri img{
+		float: left;
+		margin-block-end: 1em;
+		width: 500px;
+		margin-inline-start: 1em;
+	}
+	.kolomgambarkanan img {
+		float: left;
+		margin-block-end: 1em;
+		width: 500px;
+	}
+	.kolomtulisan {
+		float: left;
+		width: 98%;
+	}
+	P {
+		width: 98%;
+	}
+	.kaki {
+		margin-block-start: 5em;
 	}
 }
