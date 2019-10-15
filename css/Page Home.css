@@ -1,3 +1,4 @@
+
 .kaki{
 	position: absolute;
 	width: 100%;
@@ -87,8 +88,8 @@ ul li a{
 }
 
 .posisi h4{
-	width:3%;
-	height: 2%;
+	width:50px;
+	height: 3%;
 	background-color:#FFCC00;
 	padding:3px;
 	margin:0px;
@@ -98,6 +99,7 @@ ul li a{
 	border-color: black;
 }
 .judulkonten{
+	width:100%;
 	text-align:center;
 	color:black;
 	font-size:30px;
@@ -112,7 +114,7 @@ ul li a{
 .konten img {
 	box-shadow: 1px 10px 20px #aaaaaa;
 	border-radius: 40px;
-	width: 100% ;
+	width: 500px ;
 	height: 300px;
 	
 }
@@ -123,9 +125,12 @@ ul li a{
 	margin-block-end: 3em;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1575px) {
 	.judul h1{
 		font-size: 2rem;
+	}
+	.judul img {
+		transition: 0.4s;
 	}
 	.header-container {
 		padding-right:0px;
@@ -143,6 +148,7 @@ ul li a{
 
 	.videobg h2 {
 		font-size: 2rem;
+		transform: translate(-50%, -50%)
 	}
 	.login {
 		font-size: 15px;
@@ -151,7 +157,159 @@ ul li a{
 		width: 100%;
 	}
 	.posisi h4{
-		width: 10%;
+		width: 40px;
 		font-size: 15px;
+	}
+	.judulkonten h3{
+		float:left;
+		width:100%;
+		text-align: center;
+		font-size: 20px;
+	}
+	.konten {
+		width: 36%;
+	}
+	.konten img {
+		width: 450px ;
+		height: 250px;
+		margin:20px;
+	}
+	.kaki{
+		position: absolute;
+		width: 100%;
+		top:97%;
+		background-color:black;
+		height:15px;
+		padding:10px;
+		opacity:none;
+		}
+	.kaki a{
+	color:white;
+	text-decoration:none;
+	font-size: 15px;
+	
+}
+@media only screen and (min-width: 801px) {
+	.judul h1{
+		font-size: 2rem;
+	}
+	.judul img {
+		transition: 0.4s;
+	}
+	.header-container {
+		padding-right:0px;
+		margin-left:0px;
+	}
+	ul li {
+		width:120px;
+	}
+	ul li a{
+		font-size: 15px;
+	}
+	ul li ul li a {
+		font-size: 10px;
+	}
+
+	.videobg h2 {
+		font-size: 2rem;
+		transform: translate(-50%, -50%)
+	}
+	.login {
+		font-size: 15px;
+	}
+	.navigasi {
+		width: 100%;
+	}
+	.posisi h4{
+		width: 40px;
+		font-size: 15px;
+	}
+	.judulkonten h3{
+		font-size: 20px;
+	}
+	.konten {
+		width: 32%;
+	}
+	.konten img {
+		width: 400px ;
+		height: 200px;
+		margin:20px;
+	}
+	.kaki{
+		position: absolute;
+		width: 100%;
+		top:97%;
+		background-color:black;
+		height:15px;
+		padding:10px;
+		opacity:none;
+		}
+	.kaki a{
+	color:white;
+	text-decoration:none;
+	font-size: 15px;
+	
+}
+}
+
+@media only screen and (max-width: 800px) {
+	.judul h1{
+		font-size: 2rem;
+	}
+	.judul img {
+		transition: 0.4s;
+	}
+	.header-container {
+		padding-right:0px;
+		margin-left:0px;
+	}
+	ul li {
+		width:120px;
+	}
+	ul li a{
+		font-size: 15px;
+	}
+	ul li ul li a {
+		font-size: 10px;
+	}
+
+	.videobg h2 {
+		font-size: 2rem;
+		transform: translate(-50%, -50%)
+	}
+	.login {
+		font-size: 15px;
+	}
+	.navigasi {
+		width: 100%;
+	}
+	.posisi h4{
+		width: 40px;
+		font-size: 15px;
+	}
+	.judulkonten h3{
+		font-size: 20px;
+	}
+	.konten {
+		width: 100%;
+	}
+	.konten img {
+		width: 400px ;
+		height: 200px;
+		margin-left:15%;
+	}
+	.kaki{
+		position: absolute;
+		width: 100%;
+		top:97%;
+		background-color:black;
+		height:15px;
+		padding:10px;
+		opacity:none;
+		}
+	.kaki a{
+	color:white;
+	text-decoration:none;
+	font-size: 15px;
 	}
 }
