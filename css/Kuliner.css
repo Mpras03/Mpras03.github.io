@@ -69,7 +69,7 @@ ul li a{
 }
 
 .posisi h4{
-	width:16%;
+	width:270px;
 	height: 2%;
 	background-color:#FFCC00;
 	padding:3px;
@@ -107,13 +107,13 @@ ul li a{
 .judulkonten2 {
 	font-size:30px;
 	width:100%;
-	padding: 0 60% 0;
+	padding: 0 50% 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .kolomgambarkiri img{
 	float: left;
- 	width: 40%;
+ 	width: 600px;
 	border-radius: 50px;
 	box-shadow: 1px 10px 20px #aaaaaa;
 	margin-inline-end: 1em;
@@ -142,7 +142,7 @@ p{
 }
 .kolomgambarkanan img{
 	float: right;
- 	width: 40%;
+ 	width: 600px;
 	border-radius: 50px;
 	box-shadow: 1px 10px 20px #aaaaaa;
 	margin-inline-start: 1em;
@@ -265,4 +265,55 @@ h5 {
 	color:white;
 	text-decoration:none;
 	
+}
+@media only screen and (max-width: 700px) {
+	.judul h1{
+		font-size: 2rem;
+	}
+	.judul img {
+		transition: 0.4s;
+	}
+	.videobg {
+		padding-right:0px;
+		margin-left:0px;
+	}
+	ul li {
+		width:120px;
+	}
+	ul li a{
+		font-size: 15px;
+	}
+	ul li ul li a {
+		font-size: 10px;
+	}
+	.posisi h4{
+		font-size: 13px;
+		width: 220px;
+	}
+	.judulkonten2 {
+
+		padding: 0 25% 0;
+		font-size: 20px;
+	}
+	.kolomgambarkiri img{
+		float: left;
+		margin-block-end: 1em;
+		width: 500px;
+		margin-inline-start: 1em;
+	}
+	.kolomgambarkanan img {
+		float: left;
+		margin-block-end: 1em;
+		width: 500px;
+	}
+	.kolomtulisan {
+		float: left;
+		width: 98%;
+	}
+	P {
+		width: 98%;
+	}
+	.kaki {
+		margin-block-start: 5em;
+	}
 }
