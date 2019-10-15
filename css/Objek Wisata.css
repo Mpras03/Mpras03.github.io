@@ -70,7 +70,7 @@ ul li a{
 }
 
 .posisi h4{
-	width:19%;
+	width:300px;
 	height: 2%;
 	background-color:#FFCC00;
 	padding:3px;
@@ -258,4 +258,39 @@ h5 {
 .kaki a{
 	color:white;
 	text-decoration:none;
+}
+
+@media only screen and (max-width: 800px) {
+	.judul h1{
+		font-size: 2rem;
+	}
+	.judul img {
+		transition: 0.4s;
+	}
+	.videobg {
+		padding-right:0px;
+		margin-left:0px;
+	}
+	ul li {
+		width:120px;
+	}
+	ul li a{
+		font-size: 15px;
+	}
+	ul li ul li a {
+		font-size: 10px;
+	}
+	.posisi h4{
+		font-size: 13px;
+		width: 250px;
+	}
+	.judulkonten2 {
+
+		padding: 0 30% 0;
+		font-size: 25px;
+	}
+	.kolomgambarkiri {
+		width: 100%;
+		
+	}
 }
