@@ -175,7 +175,7 @@ h2{
 	.daftar{
 		transition: 0.4s;
 		width: 50%;
-		height: 300px;
+		height: 350px;
 		float:left;
 		margin-left: 15%;
 	}
@@ -183,7 +183,7 @@ h2{
 		transition: 0.4s;
 		margin-top: 50px;
 		width: 35%;
-		height: 150px;
+		height: 200px;
 		margin-left: 22%;
 		float:left;
 	}
