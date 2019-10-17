@@ -78,18 +78,31 @@ Cuaca cerah, angin yang berhembus dari laut ke pesisir, dan nyanyian ombak mengh
 	</div>
 </div>
 <hr>
-<form action>
-		<input type="text" class="textarea">
-		<input class="button1" type="submit" value="Kirim">
+<form>
+	<input type="text" class="textarea" name="komentar" placeholder="Masukkan Komentar Disini"/>
+	<input class="button1" type="button" onclick="tambahkomen()" value="Kirim"/>
 </form>
-	
+
+
+<div class="comment row">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Anonymous.svg/1200px-Anonymous.svg.png" alt>
+		<h5>Ini Kamu</h5>
+	<p id="komentar">
+	</p>
+</div>
 <div class="comment row">
 		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Anonymous.svg/1200px-Anonymous.svg.png" alt>
 		<h5>Orang Misteri</h5>
 		<p>Tidak ada makanan yang aman</p>
 </div>
+
 <div class="kaki"><center>
 	<a href="#">Privacy Policy | </a>
 	<a href="#">About | </a>
 	<a>Powered By Fernaldi and Pras</a>
 	</center></div>
+
+</div>
+</div>
+<script src="JavaScript/komentar.js"></script>
+</body>
