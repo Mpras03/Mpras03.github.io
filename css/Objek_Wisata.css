@@ -111,9 +111,11 @@ ul li a{
 	border-radius: 50px;
 	box-shadow: 1px 10px 20px #aaaaaa;
 	margin-inline-end: 1em;
+	margin-block-end: 1em;
 }
 .kolomtulisan {
- 	width:100%;
+	 width:100%;
+	 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p{
 	text-indent: 50px;
@@ -124,6 +126,7 @@ p{
     margin-block-end: 1em;
     margin-inline-start: 0px;
 	margin-inline-end: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .baris {
@@ -300,11 +303,13 @@ h5 {
 	.kolomtulisan {
 		float: left;
 		width: 98%;
+		font-size: 15px;
 	}
 	P {
 		width: 98%;
+		font-size: 15px;
 	}
 	.kaki {
-		margin-block-start: 5em;
+		margin-block-start: 7em;
 	}
 }
