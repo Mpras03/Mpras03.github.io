@@ -50,6 +50,9 @@
                 <div class="previewnya">
                     <img id="imgpreview" alt="Image Preview"/>
                     </div>
+                <div class="infopreview">
+                    <p>Info Gambar</p>
+                </div>
                 <input type="submit" name="" value="DAFTAR">
         </form>
     </div>
@@ -76,7 +79,7 @@
                     var reader = new FileReader();
                     reader.onload = function(e) {
                         $('#imgpreview + img').remove();
-                        $('#imgpreview').after('<img src="'+e.target.result+'"width="250" height="100"/>');
+                        $('#imgpreview').after('<img src="'+e.target.result+'"width="250" height="150"/>');
                     }
                     reader.readAsDataURL(input.files[0]);
                 }
