@@ -45,13 +45,13 @@
                 <input id="ttl" placeholder="Masukkan TTL" type="date"><br>
                 <label>Foto:</label><br>
                 <input id="filein" type="file" onchange="filePreview(this);">
-                <ul id="infoFile">
-                </ul>
+                <ul id="infofile"></ul>
                 <div class="previewnya">
                     <img id="imgpreview" alt="Image Preview"/>
                     </div>
                 <div class="infopreview">
-                    <p>Info Gambar</p>
+                    <ul id="ulList"></ul>
+                    <input id="btnShow" type="button" value="Show"/><br/>
                 </div>
                 <input type="submit" name="" value="DAFTAR">
         </form>
@@ -83,5 +83,26 @@
                     }
                     reader.readAsDataURL(input.files[0]);
                 }
-            }
+            }   
+</script>
+<script>
+    $(document).ready(function(){
+    $("#btnShow").on('click', function () {
+    $("#ulList").empty();
+    var fp = $("#filein");
+    var lg = fp[0]
+    .files.length;
+    var items = fp[0].files;
+    var fragment = "";
+    if (lg > 0) {
+        for (var i = 0; i < lg; i++) {
+            var fileName = items[i].name;
+            var fileSize = items[i].size; 
+            var fileType = items[i].type;
+         fragment += "<li>" + fileName + " " + fileSize + " bytes. Type :" + fileType + "</li>";
+        }
+       $("#ulList").append(fragment);
+    }
+});
+});
 </script>
