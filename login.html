@@ -44,10 +44,9 @@
                 <label>TTL:</label>
                 <input id="ttl" placeholder="Masukkan TTL" type="date"><br>
                 <label>Foto:</label><br>
-                <input id="filein" type="file" onchange="filePreview(this);">
-                <ul id="infofile"></ul>
+                <input id="filein" type="file" accept="image/*" onchange="tampilkanPreview(this,'imgpreview')"/>
                 <div class="previewnya">
-                    <img id="imgpreview" alt="Image Preview"/>
+                    <img id="imgpreview" src=""  alt="Image Preview" width="180" height="160"/>
                     </div>
                 <div class="infopreview">
                     <ul id="ulList"></ul>
@@ -74,18 +73,6 @@
         </div>            
 </body>
 <script>
-        function filePreview(input){
-                if(input.files && input.files[0]){
-                    var reader = new FileReader();
-                    reader.onload = function(e) {
-                        $('#imgpreview + img').remove();
-                        $('#imgpreview').after('<img src="'+e.target.result+'"width="250" height="150"/>');
-                    }
-                    reader.readAsDataURL(input.files[0]);
-                }
-            }   
-</script>
-<script>
     $(document).ready(function(){
     $("#btnShow").on('click', function () {
     $("#ulList").empty();
@@ -99,7 +86,7 @@
             var fileName = items[i].name;
             var fileSize = items[i].size; 
             var fileType = items[i].type;
-         fragment += "<li>" + fileName + " " + fileSize + " bytes. Type :" + fileType + "</li>";
+         fragment += "<p>" + fileName + " " + fileSize + " bytes. Type :" + fileType + "</li>";
         }
        $("#ulList").append(fragment);
     }

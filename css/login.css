@@ -137,9 +137,8 @@ h2{
 .previewnya{
 	background-color: #fff;
 	float: left;
-	width: 250px;
-	height: 160px;
 	margin-inline-end: 1em;
+	object-fit: cover;
 }
 .infopreview{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
