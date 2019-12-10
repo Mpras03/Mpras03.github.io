@@ -33,3 +33,17 @@ function deletekomen(id){
 }
 
 tampilkan();
+
+
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  var url = "https://raw.githubusercontent.com/Mpras03/Mpras03.github.io/master/ajax.txt";
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("ajax").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", url , true);
+  xhttp.send();
+}

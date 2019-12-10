@@ -260,6 +260,17 @@ h5 {
 	text-decoration:none;
 }
 
+.ajax {
+	text-indent: 50px;
+	text-align: justify;
+	font-size: 20px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 @media only screen and (max-width: 700px) {
 	.judul h1{
 		font-size: 2rem;
