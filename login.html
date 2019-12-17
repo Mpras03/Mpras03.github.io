@@ -50,7 +50,7 @@
                     </div>
                 <div class="infopreview">
                     <ul id="ulList"></ul>
-                    <input id="btnShow" type="button" value="Show"/><br/>
+                    <input id="btnShow" type="button" onclick="newFunction()" value="Show"/><br/>
                 </div>
                 <input type="submit" name="" value="DAFTAR">
         </form>
@@ -72,24 +72,3 @@
             </center>
         </div>            
 </body>
-<script>
-    $(document).ready(function(){
-    $("#btnShow").on('click', function () {
-    $("#ulList").empty();
-    var fp = $("#filein");
-    var lg = fp[0]
-    .files.length;
-    var items = fp[0].files;
-    var fragment = "";
-    if (lg > 0) {
-        for (var i = 0; i < lg; i++) {
-            var fileName = items[i].name;
-            var fileSize = items[i].size; 
-            var fileType = items[i].type;
-         fragment += "<p>" + fileName + " " + fileSize + " bytes. Type :" + fileType + "</li>";
-        }
-       $("#ulList").append(fragment);
-    }
-});
-});
-</script>

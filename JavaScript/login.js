@@ -14,6 +14,29 @@ function validasi(){
     }
 
 }
+newFunction();
+function newFunction() {
+    $(document).ready(function () {
+        $("#btnShow").on('click', function () {
+            $("#ulList").empty();
+            var fp = $("#filein");
+            var lg = fp[0]
+                .files.length;
+            var items = fp[0].files;
+            var fragment = "";
+            if (lg > 0) {
+                for (var i = 0; i < lg; i++) {
+                    var fileName = items[i].name;
+                    var fileSize = items[i].size;
+                    var fileType = items[i].type;
+                    fragment += "<p>" + fileName + " " + fileSize + " bytes. Type :" + fileType + "</li>";
+                }
+                $("#ulList").append(fragment);
+            }
+        });
+    });
+}
+
 function validasilogin(){
     var username    = document.getElementById("usernamelogin");
     var password    = document.getElementById("pwlogin");
